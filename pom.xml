@@ -38,21 +38,11 @@
     </dependencies>
 
     <build>
+		<finalName>viggug-springboot-app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                <executions>
-    <execution>
-        <goals>
-            <goal>repackage</goal>
-        </goals>
-    </execution>
-</executions>
-            <mainClass>com.example.SpringBootAppApplication</mainClass>
-            <layout>JAR</layout>
-        </configuration>
             </plugin>
         </plugins>
         
